@@ -20,7 +20,7 @@ Promise.allSettled([p1, p2, p3])
 });
 
 
-
+// Promise.allSettled() in JavaScript is a method that runs multiple promises (tasks) at the same time, but unlike Promise.all(), it waits for all of them to finish — no matter if they succeed or fail. It doesn't stop if one of the promises fails.
 
 // Here’s how it works:
 

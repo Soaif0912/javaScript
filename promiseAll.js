@@ -19,6 +19,7 @@ Promise.all([p1, p2, p3])
 });
 
 
+// Promise.all() in JavaScript is a method that helps you run multiple asynchronous tasks (like fetching data or reading files) at the same time and waits for all of them to finish before doing something with the results.
 
 // Here’s how it works in simple steps:
 
