@@ -1,4 +1,6 @@
 
+// fetch() function is given by browser not javaScript 
+
 const p1 = new Promise((resolve, reject)=>{
     setTimeout(()=>{
         resolve({message: 'p1 has resolved', value: 'p1'});
