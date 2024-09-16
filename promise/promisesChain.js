@@ -91,7 +91,7 @@ function validateCart(cart) {
 //   1.2. Inversion of control
 
 // 2. Inversion of control is overcome by using promise.
-//   2.1) A promise is an object that represents eventual completion/failure of an asynchronous operation.
+//   2.1) A promise is an object that represents eventual completion/failure of an        asynchronous operation.
 //   2.2) A promise has 3 states: pending | fulfilled | rejected.
 //   2.3)  As soon as promise is fulfilled/rejected => It updates the empty object which is assigned undefined in pending state.
 //   2.4) A promise resolves only once and it is immutable. 

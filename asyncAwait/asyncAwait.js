@@ -3,7 +3,7 @@
 
 const p1 = new Promise((resolve, reject)=>{
     setTimeout(()=>{
-        resolve({message: 'p1 has resolved', value: 'p1'});
+        reject({message: 'p1 has resolved', value: 'p1'});
     },5000);
 });
 
